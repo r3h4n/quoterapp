@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 root "pages#home"
 get '/index', to: 'pages#home'
 
+get '/faq', to: 'pages#faq'
+
 end
